@@ -1,0 +1,16 @@
+{
+  "name": "snowpack-monorepo-demo",
+  "version": "0.1.0",
+  "main": "index.js",
+  "author": "Horacio Herrera",
+  "license": "MIT",
+  "private": true,
+  "scripts": {
+    "dev": "yarn workspace @mintter/app dev",
+    "ui:dev": "yarn workspace @mintter/ui dev"
+  },
+  "workspaces": [
+    "ui",
+    "www"
+  ]
+}
